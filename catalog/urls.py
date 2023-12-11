@@ -7,6 +7,6 @@ from django.views.generic import RedirectView
 from catalog import views
 
 urlpatterns = [
-        path("menu/", views.index),
+        path("", views.index),
 ]
 
